@@ -5,9 +5,10 @@ Google-books-app uses the https://developers.google.com/books/docs/overview API 
 ## Installation (for standard modern project) and run project
 
 ```bash
-1. npm i 
-and after
-2. npm start
+npm i 
+```
+```bash
+npm start
 ```
 
 ## How to use?
@@ -19,7 +20,7 @@ and after
 
 ## Demo
 
-![](weather.gif)
+![](google.gif)
 
 #### Live link
 
