@@ -1,6 +1,6 @@
 # Google-books-by-Okeke
 
-Google-books-app uses the https://developers.google.com/books/docs/overview API for its data, this data is a One-call API and its free to use, it provides the library of books from all over the world. It also provides you with interactive elements, book informaiton, great UI and mobile friendly.
+Google-books-app uses the https://developers.google.com/books/docs/overview API for its data, this data is a One-call API and its free to use, it provides a library of books from all over the world. It also provides you with interactive UI elements, book informaiton (author, title and publisher), and mobile friendly.
 
 ## Installation (for standard modern project) and run project
 
