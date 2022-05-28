@@ -2,6 +2,14 @@
 
 Google-books-app uses the https://developers.google.com/books/docs/overview API for its data, this data is a One-call API and its free to use, it provides the library of books from all over the world. It also provides you with interactive elements, book informaiton, great UI and mobile friendly.
 
+## Installation (for standard modern project) and run project
+
+```bash
+1. npm i 
+and after
+2. npm start
+```
+
 ## How to use?
 
 1. Query the API through the search form field provided and hit ENTER, this produces a list of 5 books matching the query.
