@@ -13,7 +13,7 @@ export default function ReadingList() {
         <ul className="bookmarks__list">
           <div className="message">
             {/* mapping through the read data and displaying the data */}
-            {read.map((item) => (
+            {read.map((item) => ( 
               <p>{item}</p>
             ))}
           </div>
