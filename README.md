@@ -25,7 +25,7 @@ npm start
 #### Live link
 
 ```
-http://ok-weather-app-js.vercel.app/
+https://google-books-app.vercel.app/
 ```
 
 ## Stack
