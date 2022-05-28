@@ -172,4 +172,12 @@ input:focus::placeholder {
   .bookmarks {
     width: 13.4rem;
   }
+  .back {
+    height: 180vh;
+  }
+  .cards {
+    width: 14rem;
+    height: 11rem;
+    transform: scale(0.75);
+  }
 }
