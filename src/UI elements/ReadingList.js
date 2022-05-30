@@ -5,7 +5,20 @@ export default function ReadingList() {
   const getArray = JSON.parse(localStorage.getItem("favorites"));
 
   // mapping throught the data and creating template literal for numbering of the data and getting the titles
-  const read = getArray.map((title, i) => `${i + 1}. ${title.title}`);
+  const read =  getArray !== null ? getArray.map((title, i) => `${i + 1}. ${title.title}`) : "";
+
+  if (!localStorage.getItem("favorites")) {
+    return (
+      <div>
+      <div className="bookmarks">
+        <ul className="bookmarks__list">
+          <div className="message">
+          </div>
+        </ul>
+      </div>
+    </div>
+    );
+  }
 
   return (
     <div>
@@ -13,7 +26,7 @@ export default function ReadingList() {
         <ul className="bookmarks__list">
           <div className="message">
             {/* mapping through the read data and displaying the data */}
-            {read.map((item) => ( 
+            {read.length > 0 && read.map((item) => (
               <p>{item}</p>
             ))}
           </div>
