@@ -36,7 +36,7 @@ p {
   background-image: url(../public/back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 110vh;
+  height: 130vh;
 }
 
 .flex-logo {
@@ -46,58 +46,8 @@ p {
   width: 13rem;
 }
 
-.nav {
-  align-self: stretch;
-}
-
-.nav__list {
-  list-style: none;
-  display: flex;
-  height: 100%;
-}
-
-.nav__btn {
-  height: 100%;
-  font-family: inherit;
-  color: inherit;
-  font-size: 1.4rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0 1.5rem;
-  transition: all 0.3s;
-
-  display: flex;
-  align-items: center;
-}
-
-.nav__btn:focus {
-  outline: none;
-}
-
-.nav__btn:hover {
-  background-color: #fff;
-}
-
-.bookmarks {
-  padding: 1rem 1rem;
-  position: absolute;
-  color: #fff;
-  right: -2.5rem;
-  z-index: 10;
-  width: 33.6%;
-  background-color: #101039;
-  box-shadow: 0 0.8rem 5rem 2rem rgba(#101039, 0.1);
-  transition: all 0.5s 0.2s;
-}
-
-.btn-wid {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 11rem;
+a {
+  color: #101039;
 }
 
 /* Search */
@@ -143,8 +93,7 @@ input:focus::placeholder {
   padding: 2rem;
   border-radius: 15px;
   width: 15rem;
-  height: 13rem;
-  margin-bottom: 1rem;
+  height: 18rem;
   transform: scale(0.80);
   transition: transform 0.9s, opacity 0.5s;
 }

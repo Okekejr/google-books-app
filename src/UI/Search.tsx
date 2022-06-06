@@ -12,6 +12,10 @@ interface Istate {
       title: string;
       authors: string[];
       publisher?: string | null;
+      previewLink: string;
+      imageLinks: {
+        thumbnail: string;
+      };
     };
   }[];
 }
@@ -24,14 +28,14 @@ export default function Search() {
     try {
       const APIKEY = "AIzaSyAhiycyDI_uTu12NOz6cm67DH8SSGb9HSo";
 
-      // using fetch method to get query to the API and filtering to only 5 results
+      // using fetch method to get query to the API and filtering to only 8 results
       const data = await fetch(
-        `https://www.googleapis.com/books/v1/volumes/?q=${search}&key=${APIKEY}&maxResults=5`
+        `https://www.googleapis.com/books/v1/volumes/?q=${search}&key=${APIKEY}&maxResults=8`
       );
 
       // converting request to json
       const dataFiles = await data.json();
-      console.log(dataFiles);
+      console.log(dataFiles.items);
 
       // setData
       setData(dataFiles.items);

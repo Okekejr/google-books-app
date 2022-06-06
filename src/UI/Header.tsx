@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-import BookmarkList from "./BookmarkList";
+import React from "react";
 
 export default function Header() {
-  const [show, setShow] = useState(false);
   return (
     <div>
       <div>
@@ -11,25 +9,7 @@ export default function Header() {
             <i className="fa-solid fa-book fa-xl"></i>
             Google Books by Okeke
           </div>
-          <nav className="nav">
-            <ul className="nav__list">
-              <li className="nav__item">
-                {/* display bookmark list on hover and remove on exit */}
-                <button
-                  onMouseEnter={() => setShow(true)}
-                  onMouseLeave={() => setShow(false)}
-                  className="nav__btn nav__btn--bookmarks"
-                >
-                  <div className="btn-wid">
-                    <i className="fa-solid fa-bookmark"></i>
-                    <span>Bookmarks</span>
-                  </div>
-                </button>
-              </li>
-            </ul>
-          </nav>
         </header>
-        {show && <BookmarkList />}
       </div>
     </div>
   );
