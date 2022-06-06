@@ -1,6 +1,6 @@
 # Google-books-by-Okeke
 
-Google-books-app uses the https://developers.google.com/books/docs/overview API for its data, this data is a One-call API and its free to use, it provides a library of books from all over the world. It also provides you with interactive UI elements, book informaiton (author, title and publisher), and mobile friendly.
+Google-books-app uses the https://developers.google.com/books/docs/overview API for its data, this data is a One-call API and its free to use, it provides a library of books from all over the world. It also provides you with interactive UI elements, book informaiton (book-image, author and title), and mobile friendly.
 
 ## Installation (for standard modern project) and run project
 
@@ -14,13 +14,12 @@ npm start
 ## How to use?
 
 1. Query the API through the search form field provided and hit ENTER, this produces a list of 5 books matching the query.
-2. The query returns the book title, authors name, and the publisher.
-3. The list of books can be bookmarked to the bookmark list through the heart icon provided, the bookmarked books are saved to localStorage and then retrived from there to the bookmark list.
-4. The bookmark list is accessible at the top-right hand corner by hovering over it and it can be closed by hovering out.
+2. The query returns the book image, title, and authors name.
+3. The list of books can be accessed immediately by clicking on the link provided to begin reading.
 
 ## Demo
 
-![](google.gif)
+![]()
 
 #### Live link
 
