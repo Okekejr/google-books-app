@@ -116,24 +116,18 @@ input:focus::placeholder {
     width: auto;
   }
   .flex-logo {
-    width: 12rem;
+    width: 13rem;
   }
   .card-container {
     justify-content: center;
   }
   .back {
     background-size: cover;
-    height: auto;
-  }
-  .bookmarks {
-    width: 13.4rem;
-  }
-  .back {
-    height: 200vh;
+    height: 357vh;
   }
   .cards {
     width: 14rem;
-    height: 11rem;
+    height: 18rem;
     transform: scale(0.75);
   }
 }
