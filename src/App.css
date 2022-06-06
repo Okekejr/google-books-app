@@ -87,10 +87,17 @@ p {
   color: #fff;
   right: -2.5rem;
   z-index: 10;
-  width: 29.4rem;
+  width: 33.6%;
   background-color: #101039;
   box-shadow: 0 0.8rem 5rem 2rem rgba(#101039, 0.1);
   transition: all 0.5s 0.2s;
+}
+
+.btn-wid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 11rem;
 }
 
 /* Search */
